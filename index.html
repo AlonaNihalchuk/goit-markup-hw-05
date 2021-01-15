@@ -62,7 +62,8 @@
           ЭФФЕКТИВНЫЕ РЕШЕИЯ <br />
           ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
-        <a href="" class="button main">Заказать услугу</a>
+        <button class="button main" data-modal-open>Заказать услугу</button>
+        <!-- <a href="" class="button main" data-modal-open>Заказать услугу</a> -->
       </section>
 
       <!-- Характеристики -->
@@ -464,5 +465,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-button" data-modal-close>&#10006;</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
